@@ -1,0 +1,18 @@
+body{
+	background-color: black;
+}
+p{
+  font-size: 24px;
+	font-family: "Courier New", Courier, monospace;
+	color: white;
+}
+.rect{
+	background-color: black;
+	height: 80%;
+
+
+}
+
+#darkness{
+	color:yellow;
+}
