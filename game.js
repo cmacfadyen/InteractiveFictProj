@@ -4,14 +4,14 @@ var message=0;
 $('.rect').on('click',(function(){
  if(message==0){
   $('#intro').fadeOut("slow",function(){
-    $('#intro2').fadeIn();
+    $('#intro2').fadeIn("slow");
     message++;
 });
 
 }
 else if(message==1){
   $('#intro2').fadeOut("slow",function(){
-    $('#intro3').fadeIn();
+    $('#intro3').fadeIn("slow");
     message++;
 });
 }
