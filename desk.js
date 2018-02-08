@@ -11,9 +11,11 @@ $('.searchlight')
     .on('mouseout', function(event) {
         $(this).removeClass('on');
     })
+    /*
     .on('click', function() {
         $(this).fadeOut(function() {
             $(this).remove();
         });
     })
+    */
 ;
